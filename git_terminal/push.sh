@@ -26,7 +26,7 @@ elif [ "$p_target" = "q" ]; then
 	echo "	Returning to main menu"
 	return
 fi
-read -p "	Force? [y/n]: " force
+read -p "	Force? [y/n/q]: " force
 echo
 if [ "$force" = "y" ]; then
  	git push origin --force $ORIG_BRANCH:$p_target || HANDLE_ERROR $ORIG_BRANCH:$p_target
