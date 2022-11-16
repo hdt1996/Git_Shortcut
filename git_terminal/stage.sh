@@ -6,6 +6,10 @@ read -rp "
 	.........................................
 	<filename> : Stage modified file by name
 	all : Stage all modified in repository
+	
+	NOTE: 
+	To stage, commit, and push submodules, 
+	please go to submodules menu.
 	.........................................
 	<Enter Option : " choice
 

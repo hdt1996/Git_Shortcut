@@ -47,7 +47,7 @@ MENU_SELECT_DETAIL(){
 
 		
 MENU_PRE_SELECT(){
-	util="/home/htran/Desktop/SH_Utils/menu.sh"
+	util="$BASEDIR/../OS-VM-Shell/ubu64/SH_Utils/menu.sh"
 	txt_src="$1"
 	title="$2"
 	search="$3"
